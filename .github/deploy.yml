@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    if: github.repository == 'test-lsm/test'
+    if: github.repository == '[organization 이름]/[repositor'
     runs-on: ubuntu-24.04
 
     strategy:
